@@ -15,6 +15,7 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import Config from 'react-native-config';
 
 import {connect} from 'react-redux';
 import {someTextAction} from '../redux/actions';
@@ -42,6 +43,12 @@ const Home = (props) => {
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Redux Data</Text>
               <Text style={styles.sectionDescription}>{someText}</Text>
+            </View>
+            <View style={styles.sectionContainer}>
+              <Text style={styles.sectionTitle}>Env Data</Text>
+              <Text style={styles.sectionDescription}>
+                {Config.REACT_APP_TEST_ENV}
+              </Text>
             </View>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Pages Sample</Text>
