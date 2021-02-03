@@ -2,18 +2,8 @@
   "name": "rntemplate",
   "version": "0.0.1",
   "private": true,
-  "scripts": {
-    "android": "ENVFILE=.env.development react-native run-android warning-mode=all",
-    "android:qc": "ENVFILE=.env.qc react-native run-android warning-mode=all",
-    "android:staging": "ENVFILE=.env.staging react-native run-android warning-mode=all",
-    "android:production": "ENVFILE=.env.production react-native run-android warning-mode=all",
-    "android:windows": "SET ENVFILE=.env.development && react-native run-android warning-mode=all",
-    "android:windows:qc": "SET ENVFILE=.env.qc && react-native run-android warning-mode=all",
-    "android:windows:staging": "SET ENVFILE=.env.staging && react-native run-android warning-mode=all",
-    "android:windows:production": "SET ENVFILE=.env.production && react-native run-android warning-mode=all",
-    "ios": "react-native run-ios",
-    "start": "react-native start",
-    "test": "jest",
-    "lint": "eslint ."
-  }
+  "description": "React Native Template",
+  "repository": "https://github.com/khofesh/rntemplate.git",
+  "author": "Fahmi Ahmad <fahmiahmad@tutanota.com>",
+  "license": "MIT"
 }
