@@ -14,7 +14,7 @@ default settings:
 # HowTo
 
 ```
-npx react-native init yourProjectName https://github.com/khofesh/rntemplate.git
+npx react-native init yourProjectName --template https://github.com/khofesh/rntemplate.git
 ```
 
 # After creating RN project
