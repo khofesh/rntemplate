@@ -11,6 +11,12 @@ default settings:
 5. react-native-config
 6. react-native-vector-icons
 
+# HowTo
+
+```
+npx react-native init yourProjectName https://github.com/khofesh/rntemplate.git
+```
+
 # After creating RN project
 
 ## react-native-vector-icons
