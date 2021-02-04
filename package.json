@@ -3,7 +3,10 @@
   "version": "0.0.1",
   "private": true,
   "description": "React Native Template",
-  "repository": "https://github.com/khofesh/rntemplate.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khofesh/rntemplate.git"
+  },
   "author": "Fahmi Ahmad <fahmiahmad@tutanota.com>",
   "license": "MIT"
 }
