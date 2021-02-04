@@ -2,6 +2,15 @@
 
 hola!
 
+default settings:
+
+1. react navigation
+2. redux and redux-thunk
+3. react native elements
+4. hermes engine is enabled
+5. react-native-config
+6. react-native-vector-icons
+
 # After creating RN project
 
 ## react-native-vector-icons
