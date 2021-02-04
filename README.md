@@ -40,7 +40,7 @@ set authentication properly
 # References
 
 default template: \
-https://github.com/facebook/react-native/tree/master/template
+https://github.com/facebook/react-native/tree/master/template \
 examples: \
 https://medium.com/dailyjs/the-1-2-3s-of-react-native-templates-1f5dda037e11
 https://github.com/react-native-community/react-native-template-typescript
